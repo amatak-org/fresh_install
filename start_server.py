@@ -4,6 +4,8 @@ from tkinter import messagebox
 import subprocess
 from flask import Flask
 import threading
+import matplotlib
+matplotlib.use('Agg')
 
 app = Flask(__name__)
 
